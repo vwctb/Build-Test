@@ -1,0 +1,7 @@
+LIBRARY VisImageUtil25.dll
+
+EXPORTS
+	
+	VIS_LoadImage
+	VIS_SaveImage
+	VIS_FreeImage

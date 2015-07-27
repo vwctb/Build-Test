@@ -1,0 +1,54 @@
+﻿빌드 시작: 2015-07-20 오후 5:49:03
+     1>2 노드의 "C:\Business\LIB\VisImageUtil\2.5\Win32\Source_VS2010_html5\VisImageUtil25.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 ".\Debug\VisImageUtil25.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D VisImageUtil25_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt CImageUtil.cpp VisImageUtil25.cpp
+         CImageUtil.cpp
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\cimageutil.cpp(14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\cimageutil.cpp(15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\cimageutil.cpp(33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\cimageutil.cpp(29): warning C4101: 'ret' :참조되지 않은 지역 변수입니다.
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\cimageutil.cpp(71): warning C4101: 'version' :참조되지 않은 지역 변수입니다.
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\cimageutil.cpp(101): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+         코드를 생성하고 있습니다...
+         건너뛰고 있습니다... (관련된 변경 내용 없음)
+         VisImageUtil25.cpp
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\VisImageUtil25.dll" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib Version.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC.lib /DEF:".\VisImageUtil25.def" /MANIFEST /ManifestFile:".\Debug\VisImageUtil25.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Business\LIB\VisImageUtil\2.5\Win32\Source_VS2010_html5\Debug\VisImageUtil25.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\VisImageUtil25.lib" /MACHINE:X86 /DLL .\Debug\VisImageUtil25.res
+         .\Debug\VisImageUtil25.dll.embed.manifest.res
+         .\Debug\CImageUtil.obj
+         .\Debug\StdAfx.obj
+         .\Debug\VisImageUtil25.obj
+         LIB\INFOLIBJPEG.lib
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\VisImageUtil25.dll.embed.manifest" /manifest .\Debug\VisImageUtil25.dll.intermediate.manifest
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         VisImageUtil25.vcxproj -> C:\Business\LIB\VisImageUtil\2.5\Win32\Source_VS2010_html5\.\Debug\VisImageUtil25.dll
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\VisImageUtil25.bsc" .\Debug\CImageUtil.sbr .\Debug\StdAfx.sbr .\Debug\VisImageUtil25.sbr
+       PostBuildEvent:
+         copy Debug\VisImageUtil25.dll ..\TestVB6\VisImageUtil25.dll
+         copy Debug\VisImageUtil25.dll ..\TestCSharp\Bin\VisImageUtil25.dll
+         :VCEnd
+                 1개 파일이 복사되었습니다.
+                 1개 파일이 복사되었습니다.
+       FinalizeBuildStatus:
+         ".\Debug\VisImageUtil25.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         ".\Debug\VisImageUtil25.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Business\LIB\VisImageUtil\2.5\Win32\Source_VS2010_html5\VisImageUtil25.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:04.80

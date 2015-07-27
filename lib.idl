@@ -1,0 +1,5 @@
+
+interface CImageUtilHtml5{
+	void CImageUtilHtml5();
+	DOMString LoadImageBuffer(DOMString inbufferBase64, long size, long pageNumber);
+};

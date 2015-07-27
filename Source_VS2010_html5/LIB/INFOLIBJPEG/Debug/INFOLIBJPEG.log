@@ -1,0 +1,155 @@
+﻿빌드 시작: 2015-07-20 오후 5:29:01
+     1>2 노드의 "C:\Business\LIB\VisImageUtil\2.5\Win32\Source_VS2010_html5\LIB\INFOLIBJPEG\INFOLIBJPEG.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>_PrepareForClean:
+         ".\Debug\INFOLIBJPEG.lastbuildstate" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         ".\Debug\INFOLIBJPEG.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TC /analyze- /errorReport:prompt jaricom.c jcapimin.c jcapistd.c jcarith.c jccoefct.c jccolor.c jcdctmgr.c jchuff.c jcinit.c jcmainct.c jcmarker.c jcmaster.c jcomapi.c jcparam.c jcprepct.c jcsample.c jctrans.c jdapimin.c jdapistd.c jdarith.c jdatadst.c jdatasrc.c jdcoefct.c jdcolor.c jddctmgr.c jdhuff.c jdinput.c jdmainct.c jdmarker.c jdmaster.c jdmerge.c jdpostct.c jdsample.c jdtrans.c jerror.c jfdctflt.c jfdctfst.c jfdctint.c jidctflt.c jidctfst.c jidctint.c jmemmgr.c jmemnobs.c jpeg_main.c jpegtran.c jquant1.c jquant2.c jutils.c
+         jutils.c
+         jquant2.c
+         jquant1.c
+         jpegtran.c
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\lib\infolibjpeg\jpegtran.c(237): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 'sscanf' 선언을 참조하십시오.
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\lib\infolibjpeg\jpegtran.c(282): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 'sscanf' 선언을 참조하십시오.
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\lib\infolibjpeg\jpegtran.c(446): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\lib\infolibjpeg\jpegtran.c(471): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 'sscanf' 선언을 참조하십시오.
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\lib\infolibjpeg\jpegtran.c(515): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+         jpeg_main.c
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\lib\infolibjpeg\jpeg_main.c(71): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\lib\infolibjpeg\jpeg_main.c(241): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\lib\infolibjpeg\jpeg_main.c(381): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\lib\infolibjpeg\jpeg_main.c(497): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+         jmemnobs.c
+         jmemmgr.c
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\lib\infolibjpeg\jmemmgr.c(1106): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : 'getenv' 선언을 참조하십시오.
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\lib\infolibjpeg\jmemmgr.c(1109): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 'sscanf' 선언을 참조하십시오.
+         jidctint.c
+         jidctfst.c
+         jidctflt.c
+         jfdctint.c
+         jfdctfst.c
+         jfdctflt.c
+         jerror.c
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\lib\infolibjpeg\jerror.c(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>c:\business\lib\visimageutil\2.5\win32\source_vs2010_html5\lib\infolibjpeg\jerror.c(199): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+         jdtrans.c
+         jdsample.c
+         jdpostct.c
+         jdmerge.c
+         jdmaster.c
+         jdmarker.c
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         jdmainct.c
+         jdinput.c
+         jdhuff.c
+         jddctmgr.c
+         jdcolor.c
+         jdcoefct.c
+         jdatasrc.c
+         jdatadst.c
+         jdarith.c
+         jdapistd.c
+         jdapimin.c
+         jctrans.c
+         jcsample.c
+         jcprepct.c
+         jcparam.c
+         jcomapi.c
+         jcmaster.c
+         jcmarker.c
+         jcmainct.c
+         jcinit.c
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         jchuff.c
+         jcdctmgr.c
+         jccolor.c
+         jccoefct.c
+         jcarith.c
+         jcapistd.c
+         jcapimin.c
+         jaricom.c
+         코드를 생성하고 있습니다...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Debug\INFOLIBJPEG.lib" /NOLOGO .\Debug\jaricom.obj
+         .\Debug\jcapimin.obj
+         .\Debug\jcapistd.obj
+         .\Debug\jcarith.obj
+         .\Debug\jccoefct.obj
+         .\Debug\jccolor.obj
+         .\Debug\jcdctmgr.obj
+         .\Debug\jchuff.obj
+         .\Debug\jcinit.obj
+         .\Debug\jcmainct.obj
+         .\Debug\jcmarker.obj
+         .\Debug\jcmaster.obj
+         .\Debug\jcomapi.obj
+         .\Debug\jcparam.obj
+         .\Debug\jcprepct.obj
+         .\Debug\jcsample.obj
+         .\Debug\jctrans.obj
+         .\Debug\jdapimin.obj
+         .\Debug\jdapistd.obj
+         .\Debug\jdarith.obj
+         .\Debug\jdatadst.obj
+         .\Debug\jdatasrc.obj
+         .\Debug\jdcoefct.obj
+         .\Debug\jdcolor.obj
+         .\Debug\jddctmgr.obj
+         .\Debug\jdhuff.obj
+         .\Debug\jdinput.obj
+         .\Debug\jdmainct.obj
+         .\Debug\jdmarker.obj
+         .\Debug\jdmaster.obj
+         .\Debug\jdmerge.obj
+         .\Debug\jdpostct.obj
+         .\Debug\jdsample.obj
+         .\Debug\jdtrans.obj
+         .\Debug\jerror.obj
+         .\Debug\jfdctflt.obj
+         .\Debug\jfdctfst.obj
+         .\Debug\jfdctint.obj
+         .\Debug\jidctflt.obj
+         .\Debug\jidctfst.obj
+         .\Debug\jidctint.obj
+         .\Debug\jmemmgr.obj
+         .\Debug\jmemnobs.obj
+         .\Debug\jpeg_main.obj
+         .\Debug\jpegtran.obj
+         .\Debug\jquant1.obj
+         .\Debug\jquant2.obj
+         .\Debug\jutils.obj
+         INFOLIBJPEG.vcxproj -> C:\Business\LIB\VisImageUtil\2.5\Win32\Source_VS2010_html5\LIB\INFOLIBJPEG\.\Debug\INFOLIBJPEG.lib
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\INFOLIBJPEG.bsc" .\Debug\jaricom.sbr .\Debug\jcapimin.sbr .\Debug\jcapistd.sbr .\Debug\jcarith.sbr .\Debug\jccoefct.sbr .\Debug\jccolor.sbr .\Debug\jcdctmgr.sbr .\Debug\jchuff.sbr .\Debug\jcinit.sbr .\Debug\jcmainct.sbr .\Debug\jcmarker.sbr .\Debug\jcmaster.sbr .\Debug\jcomapi.sbr .\Debug\jcparam.sbr .\Debug\jcprepct.sbr .\Debug\jcsample.sbr .\Debug\jctrans.sbr .\Debug\jdapimin.sbr .\Debug\jdapistd.sbr .\Debug\jdarith.sbr .\Debug\jdatadst.sbr .\Debug\jdatasrc.sbr .\Debug\jdcoefct.sbr .\Debug\jdcolor.sbr .\Debug\jddctmgr.sbr .\Debug\jdhuff.sbr .\Debug\jdinput.sbr .\Debug\jdmainct.sbr .\Debug\jdmarker.sbr .\Debug\jdmaster.sbr .\Debug\jdmerge.sbr .\Debug\jdpostct.sbr .\Debug\jdsample.sbr .\Debug\jdtrans.sbr .\Debug\jerror.sbr .\Debug\jfdctflt.sbr .\Debug\jfdctfst.sbr .\Debug\jfdctint.sbr .\Debug\jidctflt.sbr .\Debug\jidctfst.sbr .\Debug\jidctint.sbr .\Debug\jmemmgr.sbr .\Debug\jmemnobs.sbr .\Debug\jpeg_main.sbr .\Debug\jpegtran.sbr .\Debug\jquant1.sbr .\Debug\jquant2.sbr .\Debug\jutils.sbr
+       PostBuildEvent:
+         copy INFOLIBJPEG.h ..\INFOLIBJPEG.h
+         
+         copy Debug\INFOLIBJPEG.lib ..\INFOLIBJPEG.lib
+         
+         :VCEnd
+                 1개 파일이 복사되었습니다.
+                 1개 파일이 복사되었습니다.
+       FinalizeBuildStatus:
+         ".\Debug\INFOLIBJPEG.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         ".\Debug\INFOLIBJPEG.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Business\LIB\VisImageUtil\2.5\Win32\Source_VS2010_html5\LIB\INFOLIBJPEG\INFOLIBJPEG.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:03.70
